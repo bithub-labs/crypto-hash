@@ -15,13 +15,13 @@ This package is for modern browsers. Internet Explorer is not supported.
 ## Install
 
 ```sh
-npm install crypto-hash
+npm install @bithub-labs/crypto-hash
 ```
 
 ## Usage
 
 ```js
-import {sha256} from 'crypto-hash';
+import {sha256} from '@bithub-labs/crypto-hash';
 
 console.log(await sha256('🦄'));
 //=> '36bf255468003165652fe978eaaa8898e191664028475f83f506dabd95298efc'
@@ -55,7 +55,3 @@ Values: `'hex' | 'buffer'`\
 Default: `'hex'`
 
 Setting this to `buffer` makes it return an `ArrayBuffer` instead of a `string`.
-
-## Related
-
-- [hasha](https://github.com/sindresorhus/hasha) - Hashing in Node.js made simple
